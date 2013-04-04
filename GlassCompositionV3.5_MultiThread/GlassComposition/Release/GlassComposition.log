@@ -1,0 +1,83 @@
+﻿Build started 2013-3-13 13:35:52.
+     1>Project "E:\workspace\Glass\GlassCompositionV3.5_MultiThread\GlassComposition\GlassComposition.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\GlassComposition.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\GlassComposition.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Microsoft Visual Studio 10\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\GlassComposition.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 10\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\GlassComposition.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ColorHeaderCtrl.cpp ColorListCtrl.cpp EditListCtrl.cpp GlassComposition.cpp GlassCompositionDlg.cpp global.cpp ItemEdit.cpp
+         ColorHeaderCtrl.cpp
+         ColorListCtrl.cpp
+     1>ColorListCtrl.cpp(376): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+         EditListCtrl.cpp
+         GlassComposition.cpp
+         GlassCompositionDlg.cpp
+     1>e:\workspace\glass\glasscompositionv3.5_multithread\glasscomposition\global.h(13): warning C4091: 'typedef ' : ignored on left of 'DATA' when no variable is declared
+     1>e:\workspace\glass\glasscompositionv3.5_multithread\glasscomposition\gmp.h(2177): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>GlassCompositionDlg.cpp(1193): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(1446): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(1547): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(1607): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(1677): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>GlassCompositionDlg.cpp(1851): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(1865): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(1627): warning C4101: 'temp' : unreferenced local variable
+     1>GlassCompositionDlg.cpp(1980): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(1991): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(1996): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(2181): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(2319): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(2405): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(2475): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>GlassCompositionDlg.cpp(2648): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(2662): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(2425): warning C4101: 'temp' : unreferenced local variable
+     1>GlassCompositionDlg.cpp(2769): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(2806): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(2936): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(2974): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3019): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3024): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3091): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3097): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3107): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3112): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3143): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3151): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3199): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3270): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3274): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3363): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3368): warning C4018: '<' : signed/unsigned mismatch
+     1>GlassCompositionDlg.cpp(3437): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>GlassCompositionDlg.cpp(3478): warning C4018: '<' : signed/unsigned mismatch
+         global.cpp
+     1>e:\workspace\glass\glasscompositionv3.5_multithread\glasscomposition\global.h(13): warning C4091: 'typedef ' : ignored on left of 'DATA' when no variable is declared
+         ItemEdit.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\GlassComposition.res" GlassComposition.rc 
+       Link:
+         D:\Microsoft Visual Studio 10\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workspace\Glass\GlassCompositionV3.5_MultiThread\Release\GlassComposition.exe" /INCREMENTAL:NO /NOLOGO "libgmp-510.lib" /MANIFEST /ManifestFile:"Release\GlassComposition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\workspace\Glass\GlassCompositionV3.5_MultiThread\Release\GlassComposition.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workspace\Glass\GlassCompositionV3.5_MultiThread\Release\GlassComposition.lib" /MACHINE:X86 Release\GlassComposition.res
+         Release\ColorHeaderCtrl.obj
+         Release\ColorListCtrl.obj
+         Release\EditListCtrl.obj
+         Release\GlassComposition.obj
+         Release\GlassCompositionDlg.obj
+         Release\global.obj
+         Release\ItemEdit.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         GlassComposition.vcxproj -> E:\workspace\Glass\GlassCompositionV3.5_MultiThread\Release\GlassComposition.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\workspace\Glass\GlassCompositionV3.5_MultiThread\Release\GlassComposition.exe;#1" /manifest res\windows.manifest Release\GlassComposition.exe.intermediate.manifest "D:\Microsoft Visual Studio 10\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\GlassComposition.unsuccessfulbuild".
+         Touching "Release\GlassComposition.lastbuildstate".
+     1>Done Building Project "E:\workspace\Glass\GlassCompositionV3.5_MultiThread\GlassComposition\GlassComposition.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.31
